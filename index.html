@@ -3,22 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microsoft Start Page Clone</title>
     <link rel="stylesheet" href="style.css">
+    <title>To-Do List App</title>
 </head>
 <body>
-    <div class="top-bar">
-        <div class="logo">Microsoft Logo Here</div>
-        <div class="weather-widget">
-            <img src="weather-icon.png" alt="Weather Icon">
-            <span class="weather-temp">Kolkata 32°C</span>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="task" placeholder="Add a new task...">
+            <button id="add">Add</button>
         </div>
-    </div>
-    <div class="search-container">
-        <input type="text" placeholder="Search the web" class="search-box">
-        <div class="icons-container">
-            <!-- Add icons here -->
-        </div>
+        <ul id="taskList"></ul>
     </div>
     <script src="script.js"></script>
 </body>
